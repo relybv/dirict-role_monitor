@@ -14,8 +14,8 @@ describe 'role_monitor' do
           let(:params) {{ }}
 
           it { is_expected.to compile.with_all_deps }
+          # classes
           it { is_expected.to contain_class('role_monitor') }
-       
           it { is_expected.to contain_class('profile_base') }
 
         end
