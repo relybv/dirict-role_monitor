@@ -8,6 +8,7 @@ fixtures:
     rspec_monitor: "https://github.com/pgomersbach/test-rspec_monitor.git"
     rsyslog: "https://github.com/saz/puppet-rsyslog.git"
     profile_rsyslog: "https://github.com/relybv/dirict-profile_rsyslog.git"
+    motd: "https://github.com/puppetlabs/puppetlabs-motd.git"
 
   symlinks:
     role_monitor: "#{source_dir}"
