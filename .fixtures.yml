@@ -10,6 +10,7 @@ fixtures:
     profile_rsyslog: "https://github.com/relybv/dirict-profile_rsyslog.git"
     motd: "https://github.com/puppetlabs/puppetlabs-motd.git"
     lvm: "https://github.com/puppetlabs/puppetlabs-lvm.git"
+    gai: "https://github.com/smoeding/puppet-gai.git"
 
   symlinks:
     role_monitor: "#{source_dir}"
