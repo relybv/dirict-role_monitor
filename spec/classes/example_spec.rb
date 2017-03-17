@@ -6,7 +6,8 @@ describe 'role_monitor' do
       context "on #{os}" do
         let(:facts) do
           facts.merge({
-            :concat_basedir => "/foo"
+            :concat_basedir => "/foo",
+            :monitor_address => "localhost"
           })
         end
 
