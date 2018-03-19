@@ -14,4 +14,6 @@ class role_monitor
   include ::profile_base::rspec_monitor
   include ::profile_rsyslog
   include ::profile_rsyslog::rspec_monitor
+  include ::profile_users
+  include ::profile_users::rspec_monitor
 }

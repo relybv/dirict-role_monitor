@@ -12,6 +12,9 @@ fixtures:
     motd: "https://github.com/puppetlabs/puppetlabs-motd.git"
     lvm: "https://github.com/puppetlabs/puppetlabs-lvm.git"
     gai: "https://github.com/smoeding/puppet-gai.git"
+    profile_users: "https://github.com/relybv/dirict-profile_users.git"
+    accounts: "https://github.com/puppetlabs/puppetlabs-accounts.git"
+    sudo: "https://github.com/saz/puppet-sudo.git"
 
   symlinks:
     role_monitor: "#{source_dir}"
